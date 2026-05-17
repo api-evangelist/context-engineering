@@ -2,7 +2,7 @@ aid: context-engineering
 url: >-
   https://raw.githubusercontent.com/api-evangelist/context-engineering/refs/heads/main/apis.yml
 name: Context Engineering
-x-type: topic
+kind: topic
 description: >-
   Context engineering is the practice of curating the information that
   large language models receive at inference time so that the model can
