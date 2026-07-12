@@ -178,6 +178,10 @@ apis:
       - Multi-day customer engagements requiring memory
       - Complex research tasks decomposed across sub-agents
 common:
+  - type: VulnerabilityDisclosure
+    url: security/context-engineering-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/context-engineering-domain-security.yml
   - type: Reference
     url: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents
   - type: Reference
