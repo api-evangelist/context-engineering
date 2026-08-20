@@ -28,6 +28,17 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/context-engineering.png
 tags:
   - Agents
+  - Artificial Intelligence
+  - Anthropic
+  - Compaction
+  - Context Window
+  - LLM
+  - Memory
+  - Prompt Engineering
+  - RAG
+  - Tools
+tags_raw:
+  - Agents
   - AI
   - Anthropic
   - Compaction
@@ -138,6 +149,11 @@ apis:
     humanURL: https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview
     baseURL: https://docs.anthropic.com
     tags:
+      - Agents
+      - Function Calling
+      - React
+      - Tool Use
+    tags_raw:
       - Agents
       - Function Calling
       - ReAct
