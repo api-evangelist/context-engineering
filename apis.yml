@@ -162,7 +162,7 @@ apis:
     tags:
       - Agents
       - Function Calling
-      - React
+      - ReAct
       - Tool Use
     tags_raw:
       - Agents
