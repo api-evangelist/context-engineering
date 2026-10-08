@@ -217,6 +217,12 @@ apis:
       - Multi-day customer engagements requiring memory
       - Complex research tasks decomposed across sub-agents
 common:
+  - type: Plans
+    url: plans/context-engineering-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/context-engineering-rate-limits.yml
+  - type: FinOps
+    url: finops/context-engineering-finops.yml
   - type: VulnerabilityDisclosure
     url: security/context-engineering-vulnerability-disclosure.yml
   - type: DomainSecurity
