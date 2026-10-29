@@ -1,4 +1,4 @@
-# Context Engineering
+# context-engineering
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,56 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Context engineering is the practice of curating the information that large language models receive at inference time so that the model can perform a task reliably and cost-effectively. It treats the context window as a finite attention budget and looks for the smallest set of high-signal tokens that maximize the likelihood of the desired outcome. Context engineering subsumes and extends prompt engineering, system prompts, tool design, retrieval, agent loops, structured note taking, compaction, and multi-agent decomposition.
+## context-engineering on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/context-engineering/refs/heads/main/apis.yml)
+Everything profiled for context-engineering is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/context-engineering/](https://apis.io/providers/context-engineering/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+## API Evangelist rating
 
-- Agents, AI, Anthropic, Compaction, Context Window, LLM, Memory, Prompt Engineering, RAG, Tools
+Not yet rated. See [apis.io/providers/context-engineering/](https://apis.io/providers/context-engineering/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## APIs
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for context-engineering: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-### Effective Context Engineering for AI Agents
-Anthropic's engineering guide framing context as a finite attention budget and walking through system prompts, tool design, just-in-time retrieval, compaction, structured notes, and multi-agent architectures.
+## Open an issue
 
-**Human URL:** [Anthropic engineering blog](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-
-### Retrieval-Augmented Generation (RAG)
-Pattern that augments LLM prompts with passages retrieved at inference time from a vector store, search index, or knowledge base.
-
-**Human URL:** [Original RAG paper](https://arxiv.org/abs/2005.11401)
-
-### Prompt Engineering
-The discipline of crafting model instructions and examples to guide model behavior, including chain-of-thought, few-shot, and structured output formats.
-
-**Human URL:** [https://www.promptingguide.ai/](https://www.promptingguide.ai/)
-
-### Agentic Loops and Tool Use
-Iterative reasoning patterns where an LLM plans, calls tools, observes results, and refines its plan.
-
-**Human URL:** [Tool use overview](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/overview)
-
-### Long-Horizon Context Strategies
-Compaction, structured note taking, and multi-agent decomposition for tasks that exceed the context window.
-
-**Human URL:** [Contextual retrieval](https://www.anthropic.com/news/contextual-retrieval)
-
-## Common Properties
-
-- [Anthropic context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-- [Prompting Guide](https://www.promptingguide.ai/)
-- [Anthropic prompt engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-- [LlamaIndex](https://docs.llamaindex.ai/)
-- [LangChain RAG](https://python.langchain.com/docs/concepts/rag/)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/context-engineering/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
